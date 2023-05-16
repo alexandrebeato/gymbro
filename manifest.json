@@ -1,0 +1,16 @@
+{
+  "short_name": "GymBro",
+  "name": "GymBro",
+  "icons": [
+    {
+      "src": "/assets/icons/logo.jpeg",
+      "type": "image/jpeg",
+      "sizes": "720x720"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#3367D6",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#3367D6"
+}
