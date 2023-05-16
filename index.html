@@ -11,8 +11,77 @@
     <title>GymBro</title>
   </head>
   <body>
-    <h1>Hello world</h1>
-
+    <div class="area">
+      <img src="assets/icons/logo-only-white.png" alt="" class="logo" />
+      <br /><br />
+      <section class="container flex center">
+        <div class="item">
+          <div>
+            <span class="title-field">Serie</span>
+          </div>
+          <div>
+            <button class="control-button">⏶</button>
+          </div>
+          <div>
+            <input
+              type="text"
+              class="control-input"
+              id="serie"
+              value="1"
+              disabled
+            />
+          </div>
+          <div>
+            <button class="control-button">⏷</button>
+          </div>
+        </div>
+        <div class="item">
+          <div class="vl"></div>
+        </div>
+        <div class="item">
+          <div>
+            <span class="title-field">Time</span>
+          </div>
+          <div>
+            <button class="control-button">⏶</button>
+          </div>
+          <div>
+            <input
+              type="text"
+              class="control-input"
+              id="minutes"
+              value="1"
+              disabled
+            />
+            <input
+              type="text"
+              class="control-input"
+              id="seconds"
+              value="30"
+              disabled
+            />
+          </div>
+          <div>
+            <button class="control-button">⏷</button>
+          </div>
+        </div>
+      </section>
+      <br />
+      <br />
+      <br />
+      <section class="container flex">
+        <div class="item">
+          <div class="button">Reset</div>
+        </div>
+        <div class="item">
+          <div class="button">Stop</div>
+        </div>
+        <div class="item">
+          <div class="button">Play</div>
+          <!-- <div class="button">Pause</div> -->
+        </div>
+      </section>
+    </div>
     <script>
       if (navigator.serviceWorker) {
         navigator.serviceWorker.register('/gymbro/sw.js', {
