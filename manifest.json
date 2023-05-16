@@ -3,7 +3,7 @@
   "name": "GymBro",
   "icons": [
     {
-      "src": "/assets/icons/logo.jpeg",
+      "src": "assets/icons/logo.jpeg",
       "type": "image/jpeg",
       "sizes": "720x720"
     }
