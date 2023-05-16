@@ -1,16 +1,17 @@
 {
-  "short_name": "GymBro",
   "name": "GymBro",
+  "short_name": "GymBro",
+  "description": "A simple pwa application that controls the time and series",
+  "scope": "/gymbro/",
+  "start_url": "/gymbro/",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "display": "standalone",
   "icons": [
     {
-      "src": "assets/icons/logo.jpeg",
-      "type": "image/jpeg",
+      "src": "/assets/icons/logo.jpeg",
+      "type": "image/png",
       "sizes": "720x720"
     }
-  ],
-  "start_url": "/",
-  "background_color": "#3367D6",
-  "display": "standalone",
-  "scope": "/",
-  "theme_color": "#3367D6"
+  ]
 }
