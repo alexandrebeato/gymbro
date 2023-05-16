@@ -8,6 +8,7 @@ body {
   font-family: 'Roboto', sans-serif;
   background-color: #000000;
   color: #f0ece2;
+  overflow: hidden;
 }
 
 .area {
