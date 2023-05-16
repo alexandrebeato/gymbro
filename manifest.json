@@ -9,7 +9,7 @@
   "display": "standalone",
   "icons": [
     {
-      "src": "/assets/icons/logo.jpeg",
+      "src": "assets/icons/logo.jpeg",
       "type": "image/png",
       "sizes": "720x720"
     }
