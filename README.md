@@ -1,24 +1,10 @@
-# gymbro
+<p align="center">
+  <img src="assets/icons/logo-only-white.png" width="100px" /> 
+</p>
 
-## Project setup
-```
-npm install
-```
+# GymBro
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+A simple PWA application hosted on GitHub Pages that controls the time and series. It is intended for people who want to exercise at home and do not have a timer or do not want to use their phone clock.
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## References
+To configure this project, I used [this guide](https://christianheilmann.com/2022/01/13/turning-a-github-page-into-a-progressive-web-app/).
